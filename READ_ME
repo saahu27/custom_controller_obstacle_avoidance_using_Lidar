@@ -1,0 +1,34 @@
+
+
+The Turtlebot3 has been simulated using ROS and Gazeobo tools. 
+
+In order to do this you need to have ros, turtle bot packages and catkin_make installed.
+
+I have included the turtle bot packages in the submission in case it is needed. 
+
+THE PACKAGE FOR CODE SUBMISSION IS THE "TURTLE_LASER" folder.
+
+The code for obstacle avoidance is this path: turtle_laser/src/motion4.py
+
+
+how to RUN:
+
+open the terminal and run:
+
+            roslaunch turtlebot3_gazebo turtlebot3_stage_4.launch 
+
+for teleoping the turtlebot3 :
+
+            roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+
+for obstacle avaoidance behaviour :
+
+            rosrun turtle_laser motion4.py
+            
+
+
+
+            
+            
+
+

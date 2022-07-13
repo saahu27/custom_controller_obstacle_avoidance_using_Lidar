@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="turtle_laser" type="motion4.py" name="reading_laser" output="screen">
+
+    </node>
+</launch>
